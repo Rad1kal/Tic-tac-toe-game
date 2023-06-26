@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.modal {
+    display: none;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.winP1, .winP2, .draw {
+    display: none;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+.show{
+    display: block;
+}
+
+.hide {
+    display: hide;
+}
+
+.gameboard {
+    width: 400px;
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.gameblock {
+    width: 30%;
+    height: 100px;
+    background-color: plum;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
